@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" ng-app="MainApp" ng-controller="MainController">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+
+	<title>{{title}}</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+	<link rel="stylesheet" href="css/pb.css"> <!-- custom styles -->
+
+	<!-- JS -->
+	<script src="libs/jquery/dist/jquery.js"></script>
+	<script src="libs/angular/angular.js"></script>
+	<script src="libs/angular-route/angular-route.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+	
+
+	<!-- ANGULAR CUSTOM -->
+	<script src="js/angularApp.js"></script>
+	
+</head>
+<body>
+
+	
+	<!-- HEADER -->
+
+	 <nav id="topMenu" class="navbar navbar-inverse navbar-fixed-top" ng-controller="NavController">
+      
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="/">PicksAndBans</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav nav-pills navbar-right">
+          </ul>
+        </div><!--/.nav-collapse -->
+      
+    </nav>
+
+
+
+	<!-- ANGULAR DYNAMIC CONTENT -->
+	<div class="wrapper" style="padding-top:50px">
+		<div class='main-view' ui-view="mainView"></div>
+	</div>
+
+<!-- <script src="js/resize.js"></script> -->
+
+
+
+</body>
+</html>
