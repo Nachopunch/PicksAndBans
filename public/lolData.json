@@ -3,1074 +3,1077 @@
       {
          "name":"Aatrox",
          "shortname":"aatrox",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Ahri",
          "shortname":"ahri",
-         "class":[
-            "assassin",
-            "mage",
-            "ranged"
+         "role":[
+            "Assassin",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Akali",
          "shortname":"akali",
-         "class":[
-            "assassin",
-            "melee"
+         "role":[
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Alistar",
          "shortname":"alistar",
-         "class":[
-            "tank",
-            "support",
-            "melee"
+         "role":[
+            "Tank",
+            "Support",
+            "Melee"
          ]
       },
       {
          "name":"Amumu",
          "shortname":"amumu",
-         "class":[
-            "tank",
-            "mage",
-            "melee"
+         "role":[
+            "Tank",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Anivia",
          "shortname":"anivia",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Annie",
          "shortname":"annie",
-         "class":[
-            "mage",
-            "ranged",
+         "role":[
+            "Mage",
+            "Ranged",
             "recommended"
          ]
       },
       {
          "name":"Ashe",
          "shortname":"ashe",
-         "class":[
-            "marksman",
-            "support",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Azir",
          "shortname":"azir",
-         "class":[
-            "marksman",
-            "mage",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Bard",
          "shortname":"bard",
-         "class":[
-            "support",
-            "mage",
-            "ranged"
+         "role":[
+            "Support",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Blitzcrank",
          "shortname":"blitzcrank",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Brand",
          "shortname":"brand",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Braum",
          "shortname":"braum",
-         "class":[
-            "tank",
-            "support",
-            "melee"
+         "role":[
+            "Tank",
+            "Support",
+            "Melee"
          ]
       },
       {
          "name":"Caitlyn",
          "shortname":"caitlyn",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Cassiopeia",
          "shortname":"cassiopeia",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Cho'Gath",
          "shortname":"choGath",
-         "class":[
-            "tank",
-            "mage",
-            "melee"
+         "role":[
+            "Tank",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Corki",
          "shortname":"corki",
-         "class":[
-            "ranged",
-            "marksman"
+         "role":[
+            "Ranged",
+            "Marksman"
          ]
       },
       {
          "name":"Dr. Mundo",
          "shortname":"drMundo",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Draven",
          "shortname":"draven",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Ekko",
          "shortname":"ekko",
-         "class":[
-            "assassin",
-            "fighter",
-            "melee"
+         "role":[
+            "Assassin",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Elise",
          "shortname":"elise",
-         "class":[
-            "mage",
-            "fighter",
-            "ranged"
+         "role":[
+            "Mage",
+            "Fighter",
+            "Ranged"
          ]
       },
       {
          "name":"Evelynn",
          "shortname":"evelynn",
-         "class":[
-            "assassin",
-            "mage",
-            "melee"
+         "role":[
+            "Assassin",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Ezreal",
          "shortname":"ezreal",
-         "class":[
-            "marksman",
-            "mage",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Fiddlesticks",
          "shortname":"fiddlesticks",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Fiora",
          "shortname":"fiora",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Fizz",
          "shortname":"fizz",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Galio",
          "shortname":"galio",
-         "class":[
-            "tank",
-            "mage",
-            "melee"
+         "role":[
+            "Tank",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Gangplank",
          "shortname":"gangplank",
-         "class":[
-            "fighter",
-            "melee"
+         "role":[
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Garen",
          "shortname":"garen",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Gnar",
          "shortname":"gnar",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Gragas",
          "shortname":"gragas",
-         "class":[
-            "fighter",
-            "mage",
-            "melee"
+         "role":[
+            "Fighter",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Graves",
          "shortname":"graves",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Heimerdinger",
          "shortname":"heimerdinger",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Illaoi",
          "shortname":"illaoi",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Irelia",
          "shortname":"irelia",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Janna",
          "shortname":"janna",
-         "class":[
-            "support",
-            "mage",
-            "ranged"
+         "role":[
+            "Support",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Jarvan IV",
          "shortname":"jarvanIV",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Jax",
          "shortname":"jax",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Jayce",
          "shortname":"jayce",
-         "class":[
-            "fighter",
-            "marksman",
-            "melee"
+         "role":[
+            "Fighter",
+            "Marksman",
+            "Melee"
          ]
       },
       {
          "name":"Jinx",
          "shortname":"jinx",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Kalista",
          "shortname":"kalista",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Karma",
          "shortname":"karma",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Karthus",
          "shortname":"karthus",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Kassadin",
          "shortname":"kassadin",
-         "class":[
-            "assassin",
-            "mage",
-            "melee"
+         "role":[
+            "Assassin",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Katarina",
          "shortname":"katarina",
-         "class":[
-            "assassin",
-            "melee",
-            "mage"
+         "role":[
+            "Assassin",
+            "Melee",
+            "Mage"
          ]
       },
       {
          "name":"Kayle",
          "shortname":"kayle",
-         "class":[
-            "fighter",
-            "support",
-            "melee"
+         "role":[
+            "Fighter",
+            "Support",
+            "Melee"
          ]
       },
       {
          "name":"Kennen",
          "shortname":"kennen",
-         "class":[
-            "mage",
-            "marksman",
-            "ranged"
+         "role":[
+            "Mage",
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Kha'Zix",
          "shortname":"khaZix",
-         "class":[
-            "assassin",
-            "fighter",
-            "melee"
+         "role":[
+            "Assassin",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Kindred",
          "shortname":"kindred",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Kog'Maw",
          "shortname":"kogMaw",
-         "class":[
-            "ranged",
-            "marksman",
-            "mage"
+         "role":[
+            "Ranged",
+            "Marksman",
+            "Mage"
          ]
       },
       {
          "name":"LeBlanc",
          "shortname":"leBlanc",
-         "class":[
-            "assassin",
-            "mage",
-            "ranged"
+         "role":[
+            "Assassin",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Lee Sin",
          "shortname":"leeSin",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Leona",
          "shortname":"leona",
-         "class":[
-            "tank",
-            "support",
-            "melee"
+         "role":[
+            "Tank",
+            "Support",
+            "Melee"
          ]
       },
       {
          "name":"Lux",
          "shortname":"lux",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Malphite",
          "shortname":"malphite",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Malzahar",
          "shortname":"malzahar",
-         "class":[
-            "mage",
-            "assassin",
-            "ranged"
+         "role":[
+            "Mage",
+            "Assassin",
+            "Ranged"
          ]
       },
       {
          "name":"Maokai",
          "shortname":"maokai",
-         "class":[
-            "tank",
-            "mage",
-            "melee"
+         "role":[
+            "Tank",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Master Yi",
          "shortname":"masterYi",
-         "class":[
-            "assassin",
-            "melee",
-            "fighter"
+         "role":[
+            "Assassin",
+            "Melee",
+            "Fighter"
          ]
       },
       {
          "name":"Miss Fortune",
          "shortname":"missFortune",
-         "class":[
-            "ranged",
-            "marksman"
+         "role":[
+            "Ranged",
+            "Marksman"
          ]
       },
       {
          "name":"Mordekaiser",
          "shortname":"mordekaiser",
-         "class":[
-            "fighter",
-            "mage",
-            "melee"
+         "role":[
+            "Fighter",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Morgana",
          "shortname":"morgana",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Nami",
          "shortname":"nami",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Nasus",
          "shortname":"nasus",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Nautilus",
          "shortname":"nautilus",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Nidalee",
          "shortname":"nidalee",
-         "class":[
-            "assassin",
-            "fighter",
-            "ranged"
+         "role":[
+            "Assassin",
+            "Fighter",
+            "Ranged"
          ]
       },
       {
          "name":"Nocturne",
          "shortname":"nocturne",
-         "class":[
-            "assassin",
-            "fighter",
-            "melee"
+         "role":[
+            "Assassin",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Nunu",
          "shortname":"nunu",
-         "class":[
-            "fighter",
-            "melee",
-            "support"
+         "role":[
+            "Fighter",
+            "Melee",
+            "Support"
          ]
       },
       {
          "name":"Olaf",
          "shortname":"olaf",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Orianna",
          "shortname":"orianna",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Pantheon",
          "shortname":"pantheon",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Poppy",
          "shortname":"poppy",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Quinn",
          "shortname":"quinn",
-         "class":[
-            "marksman",
-            "fighter",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Fighter",
+            "Ranged"
          ]
       },
       {
          "name":"Rammus",
          "shortname":"rammus",
-         "class":[
-            "tank",
-            "melee",
-            "fighter"
+         "role":[
+            "Tank",
+            "Melee",
+            "Fighter"
          ]
       },
       {
          "name":"Rek'Sai",
          "shortname":"rekSai",
-         "class":[
-            "fighter",
-            "melee"
+         "role":[
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Renekton",
          "shortname":"renekton",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Riven",
          "shortname":"riven",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Rumble",
          "shortname":"rumble",
-         "class":[
-            "mage",
-            "melee",
-            "fighter"
+         "role":[
+            "Mage",
+            "Melee",
+            "Fighter"
          ]
       },
       {
          "name":"Ryze",
          "shortname":"ryze",
-         "class":[
-            "mage",
-            "fighter",
-            "ranged"
+         "role":[
+            "Mage",
+            "Fighter",
+            "Ranged"
          ]
       },
       {
          "name":"Sejuani",
          "shortname":"sejuani",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Shaco",
          "shortname":"shaco",
-         "class":[
-            "assassin",
-            "melee"
+         "role":[
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Shen",
          "shortname":"shen",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Shyvana",
          "shortname":"shyvana",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Singed",
          "shortname":"singed",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Sion",
          "shortname":"sion",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Sivir",
          "shortname":"sivir",
-         "class":[
-            "marksman",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Ranged"
          ]
       },
       {
          "name":"Skarner",
          "shortname":"skarner",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Sona",
          "shortname":"sona",
-         "class":[
-            "support",
-            "ranged",
-            "mage"
+         "role":[
+            "Support",
+            "Ranged",
+            "Mage"
          ]
       },
       {
          "name":"Soraka",
          "shortname":"soraka",
-         "class":[
-            "support",
-            "ranged",
-            "mage"
+         "role":[
+            "Support",
+            "Ranged",
+            "Mage"
          ]
       },
       {
          "name":"Swain",
          "shortname":"swain",
-         "class":[
-            "mage",
-            "fighter",
-            "ranged"
+         "role":[
+            "Mage",
+            "Fighter",
+            "Ranged"
          ]
       },
       {
          "name":"Syndra",
          "shortname":"syndra",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Tahm Kench",
          "shortname":"tahmKench",
-         "class":[
-            "tank",
-            "support",
-            "melee"
+         "role":[
+            "Tank",
+            "Support",
+            "Melee"
          ]
       },
       {
          "name":"Talon",
          "shortname":"talon",
-         "class":[
-            "assassin",
-            "fighter",
-            "melee"
+         "role":[
+            "Assassin",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Taric",
          "shortname":"taric",
-         "class":[
-            "support",
-            "melee",
-            "fighter"
+         "role":[
+            "Support",
+            "Melee",
+            "Fighter"
          ]
       },
       {
          "name":"Teemo",
          "shortname":"teemo",
-         "class":[
-            "marksman",
-            "assassin",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Assassin",
+            "Ranged"
          ]
       },
       {
          "name":"Thresh",
          "shortname":"thresh",
-         "class":[
-            "fighter",
-            "support",
-            "ranged"
+         "role":[
+            "Fighter",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Tristana",
          "shortname":"tristana",
-         "class":[
-            "marksman",
-            "ranged",
-            "assassin"
+         "role":[
+            "Marksman",
+            "Ranged",
+            "Assassin"
          ]
       },
       {
          "name":"Trundle",
          "shortname":"trundle",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Tryndamere",
          "shortname":"tryndamere",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Twisted Fate",
          "shortname":"twistedFate",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Twitch",
          "shortname":"twitch",
-         "class":[
-            "marksman",
-            "assassin",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Assassin",
+            "Ranged"
          ]
       },
       {
          "name":"Udyr",
          "shortname":"udyr",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Urgot",
          "shortname":"urgot",
-         "class":[
-            "marksman",
-            "fighter",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Fighter",
+            "Ranged"
          ]
       },
       {
          "name":"Varus",
          "shortname":"varus",
-         "class":[
-            "marksman",
-            "mage",
-            "ranged"
+         "role":[
+            "Marksman",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Vayne",
          "shortname":"vayne",
-         "class":[
-            "marksman",
-            "ranged",
-            "assassin"
+         "role":[
+            "Marksman",
+            "Ranged",
+            "Assassin"
          ]
       },
       {
          "name":"Veigar",
          "shortname":"veigar",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Vel'Koz",
          "shortname":"velKoz",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Vi",
          "shortname":"vi",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Viktor",
          "shortname":"viktor",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Vladimir",
          "shortname":"vladimir",
-         "class":[
-            "tank",
-            "mage",
-            "ranged"
+         "role":[
+            "Tank",
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Volibear",
          "shortname":"volibear",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Warwick",
          "shortname":"warwick",
-         "class":[
-            "fighter",
-            "tank",
-            "melee"
+         "role":[
+            "Fighter",
+            "Tank",
+            "Melee"
          ]
       },
       {
          "name":"Wukong",
          "shortname":"wukong",
-         "class":[
-            "fighter",
-            "melee",
-            "tank"
+         "role":[
+            "Fighter",
+            "Melee",
+            "Tank"
          ]
       },
       {
          "name":"Xerath",
          "shortname":"xerath",
-         "class":[
-            "mage",
-            "assassin",
-            "ranged"
+         "role":[
+            "Mage",
+            "Assassin",
+            "Ranged"
          ]
       },
       {
          "name":"Xin Zhao",
          "shortname":"xinZhao",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Yasuo",
          "shortname":"yasuo",
-         "class":[
-            "fighter",
-            "assassin",
-            "melee"
+         "role":[
+            "Fighter",
+            "Assassin",
+            "Melee"
          ]
       },
       {
          "name":"Yorick",
          "shortname":"yorick",
-         "class":[
-            "fighter",
-            "mage",
-            "melee"
+         "role":[
+            "Fighter",
+            "Mage",
+            "Melee"
          ]
       },
       {
          "name":"Zac",
          "shortname":"zac",
-         "class":[
-            "tank",
-            "fighter",
-            "melee"
+         "role":[
+            "Tank",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Zed",
          "shortname":"zed",
-         "class":[
-            "assassin",
-            "fighter",
-            "melee"
+         "role":[
+            "Assassin",
+            "Fighter",
+            "Melee"
          ]
       },
       {
          "name":"Ziggs",
          "shortname":"ziggs",
-         "class":[
-            "mage",
-            "ranged"
+         "role":[
+            "Mage",
+            "Ranged"
          ]
       },
       {
          "name":"Zilean",
          "shortname":"zilean",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       },
       {
          "name":"Zyra",
          "shortname":"zyra",
-         "class":[
-            "mage",
-            "support",
-            "ranged"
+         "role":[
+            "Mage",
+            "Support",
+            "Ranged"
          ]
       }
    ],
-   "modes":[
-      {
-         "name":"Joust 3v3",
+   "modes":{
+      "lol3v3": {
+         "name":"3v3 Ranked",
+         "id": "lol3v3",
+         "teamSize": 3,
+         "numOfBans": 3,
          "order":[
             "LB1",
             "RB1",
@@ -1086,34 +1089,37 @@
             "RP3"
          ]
       },
-      {
-         "name":"Conquest 5v5",
+      "lol5v5": {
+         "name":"5v5 Ranked",
+         "id": "lol5v5",
+         "teamSize": 5,
+         "numOfBans": 3,
          "order":[
             "LB1",
             "RB1",
             "LB2",
             "RB2",
+            "LB3",
+            "RB3",
             "LP1",
             "RP1",
             "RP2",
             "LP2",
             "LP3",
             "RP3",
-            "RB3",
-            "LB3",
             "RP4",
             "LP4",
             "LP5",
             "RP5"
          ]
       }
-   ],
+   },
    "filters":[
       "Assassin",
       "Fighter",
       "Mage",
       "Support",
       "Tank",
-      "Carry"
+      "Marksman"
    ]
 }

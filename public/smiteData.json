@@ -4,423 +4,458 @@
     {
       "name": "Agni",
       "shortname": "agni",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Hindu"
     },
     {
       "name": "Ah Muzen Cab",
       "shortname": "ah_muzen_cab",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Mayan"
     },
     {
       "name": "Ah Puch",
       "shortname": "ah_puch",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Mayan"
     },
     {
       "name": "Anhur",
       "shortname": "anhur",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Egyptian"
     },
     {
       "name": "Anubis",
       "shortname": "anubis",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Egyptian"
     },
     {
       "name": "Ao Kuang",
       "shortname": "ao_kuang",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Chinese"
     },
     {
       "name": "Aphrodite",
       "shortname": "aphrodite",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Greek"
     },
     {
       "name": "Apollo",
       "shortname": "apollo",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Greek"
     },
     {
       "name": "Arachne",
       "shortname": "arachne",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Greek"
     },
     {
       "name": "Ares",
       "shortname": "ares",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Greek"
     },
     {
       "name": "Artemis",
       "shortname": "artemis",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Greek"
     },
     {
       "name": "Athena",
       "shortname": "athena",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Greek"
     },
     {
       "name": "Awilix",
       "shortname": "awilix",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Mayan"
     },
     {
       "name": "Bacchus",
       "shortname": "bacchus",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Roman"
     },
     {
       "name": "Bakasura",
       "shortname": "bakasura",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Hindu"
     },
     {
       "name": "Bastet",
       "shortname": "bastet",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Egyptian"
     },
     {
       "name": "Bellona",
       "shortname": "bellona",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Roman"
     },
     {
       "name": "Cabrakan",
       "shortname": "cabrakan",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Mayan"
     },
     {
       "name": "Chaac",
       "shortname": "chaac",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Mayan"
     },
     {
       "name": "Chang'e",
       "shortname": "change",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Chinese"
     },
     {
       "name": "Chronos",
       "shortname": "chronos",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Greek"
     },
     {
       "name": "Cupid",
       "shortname": "cupid",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Roman"
     },
     {
       "name": "Fenrir",
       "shortname": "fenrir",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Norse"
     },
     {
       "name": "Freya",
       "shortname": "freya",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Norse"
     },
     {
       "name": "Geb",
       "shortname": "geb",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Egyptian"
     },
     {
       "name": "Guan Yu",
       "shortname": "guan_yu",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Chinese"
     },
     {
       "name": "Hades",
       "shortname": "hades",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Greek"
     },
     {
       "name": "He Bo",
       "shortname": "he_bo",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Chinese"
     },
     {
       "name": "Hel",
       "shortname": "hel",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Norse"
     },
     {
       "name": "Hercules",
       "shortname": "hercules",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Roman"
     },
     {
       "name": "Hou Yi",
       "shortname": "hou_yi",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Chinese"
     },
     {
       "name": "Hun Batz",
       "shortname": "hun_batz",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Mayan"
     },
     {
       "name": "Isis",
       "shortname": "isis",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Egyptian"
     },
     {
       "name": "Janus",
       "shortname": "janus",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Roman"
     },
     {
       "name": "Kali",
       "shortname": "kali",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Hindu"
     },
     {
       "name": "Khepri",
       "shortname": "khepri",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Egyptian"
     },
     {
       "name": "Kulkulkan",
       "shortname": "kulkulkan",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Mayan"
     },
     {
       "name": "Kumbhakarna",
       "shortname": "kumbhakarna",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Hindu"
     },
     {
       "name": "Loki",
       "shortname": "loki",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Norse"
     },
     {
       "name": "Medusa",
       "shortname": "medusa",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Greek"
     },
     {
       "name": "Mercury",
       "shortname": "mercury",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Roman"
     },
     {
       "name": "Ne Zha",
       "shortname": "ne_zha",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Chinese"
     },
     {
       "name": "Neith",
       "shortname": "neith",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Egyptian"
     },
     {
       "name": "Nemesis",
       "shortname": "nemesis",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Greek"
     },
     {
       "name": "Nox",
       "shortname": "nox",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Roman"
     },
     {
       "name": "Nu Wa",
       "shortname": "nu_wa",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Chinese"
     },
     {
       "name": "Odin",
       "shortname": "odin",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Norse"
     },
     {
       "name": "Osiris",
       "shortname": "osiris",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Egyptian"
     },
     {
       "name": "Poseidon",
       "shortname": "poseidon",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Greek"
     },
     {
       "name": "Ra",
       "shortname": "ra",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Egyptian"
     },
     {
       "name": "Rama",
       "shortname": "rama",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Hindu"
     },
     {
       "name": "Ratatoskr",
       "shortname": "ratatoskr",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Norse"
     },
     {
       "name": "Ravana",
       "shortname": "ravana",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Hindu"
     },
     {
       "name": "Scylla",
       "shortname": "scylla",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Greek"
     },
     {
       "name": "Serqet",
       "shortname": "serqet",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Egyptian"
     },
     {
       "name": "Sobek",
       "shortname": "sobek",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Egyptian"
     },
     {
       "name": "Sun Wukong",
       "shortname": "sun_wukong",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Chinese"
     },
     {
       "name": "Sylvanus",
       "shortname": "sylvanus",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Roman"
     },
     {
       "name": "Thanatos",
       "shortname": "thanatos",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Greek"
     },
     {
       "name": "Thor",
       "shortname": "thor",
-      "class": "Assasin",
+      "role": "Assasin",
       "pantheon": "Norse"
     },
     {
       "name": "Tyr",
       "shortname": "tyr",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Norse"
     },
     {
       "name": "Ullr",
       "shortname": "ullr",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Norse"
     },
     {
       "name": "Vamana",
       "shortname": "vamana",
-      "class": "Warrior",
+      "role": "Warrior",
       "pantheon": "Hindu"
     },
     {
       "name": "Vulcan",
       "shortname": "vulcan",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Roman"
     },
     {
       "name": "Xbalanque",
       "shortname": "xbalanque",
-      "class": "Hunter",
+      "role": "Hunter",
       "pantheon": "Mayan"
     },
     {
       "name": "Ymir",
       "shortname": "ymir",
-      "class": "Guardian",
+      "role": "Guardian",
       "pantheon": "Norse"
     },
     {
       "name": "Zeus",
       "shortname": "zeus",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Greek"
     },
     {
       "name": "Zhong Kui",
       "shortname": "zhong_kui",
-      "class": "Mage",
+      "role": "Mage",
       "pantheon": "Chinese"
     }
   ],
-  "modes":
-  [
-    {
+  "modes": {
+    "smite3v3": {
       "name": "Joust 3v3",
-      "order":["LB1","RB1","LB2","RB2","LB3","RB3","LP1","RP1","RP2","LP2","LP3","RP3"]
+      "id": "smite3v3",
+      "teamSize": 3,
+      "numOfBans": 3,
+      "order":[
+         "LB1",
+         "RB1",
+         "LB2",
+         "RB2",
+         "LB3",
+         "RB3",
+         "LP1",
+         "RP1",
+         "RP2",
+         "LP2",
+         "LP3",
+         "RP3"
+      ]
     },
-    {
+    "smite5v5": {
       "name": "Conquest 5v5",
-      "order":["LB1","RB1","LB2","RB2","LP1","RP1","RP2","LP2","LP3","RP3","RB3","LB3","RP4","LP4","LP5","RP5"]
+      "id": "smite5v5",
+      "teamSize": 5,
+      "numOfBans": 3,
+      "order":[
+        "LB1",
+        "RB1",
+        "LB2",
+        "RB2",
+        "LP1",
+        "RP1",
+        "RP2",
+        "LP2",
+        "LP3",
+        "RP3",
+        "RB3",
+        "LB3",
+        "RP4",
+        "LP4",
+        "LP5",
+        "RP5"
+      ]
     }
-  ],
+  },
   "filters":
   ["Assasin", "Guardian", "Hunter", "Mage", "Warrior"]
 }
