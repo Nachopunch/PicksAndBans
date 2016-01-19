@@ -668,46 +668,28 @@
 			}
 		],
    "modes":{
-      "dota3v3": {
-         "name":"3v3 Ranked",
-         "id": "dota3v3",
-         "teamSize": 3,
-         "numOfBans": 3,
-         "order":[
-            "LB1",
-            "RB1",
-            "LB2",
-            "RB2",
-            "LB3",
-            "RB3",
-            "LP1",
-            "RP1",
-            "RP2",
-            "LP2",
-            "LP3",
-            "RP3"
-         ]
-      },
       "dota5v5": {
-         "name":"5v5 Ranked",
+         "name":"Captain's Mode",
          "id": "dota5v5",
          "teamSize": 5,
-         "numOfBans": 3,
+         "numOfBans": 4,
          "order":[
             "LB1",
             "RB1",
             "LB2",
             "RB2",
-            "LB3",
-            "RB3",
             "LP1",
             "RP1",
             "RP2",
             "LP2",
             "LP3",
             "RP3",
-            "RP4",
+            "LB3",
+            "RB3",
+            "LB4",
+            "RB4",
             "LP4",
+            "RP4",
             "LP5",
             "RP5"
          ]

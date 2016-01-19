@@ -74,33 +74,7 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 	$scope.maxPhase;
 	$scope.pickOrder;
 	$scope.currentMode;
-	$scope.message = "Welcome to PicksAndBans.com! Please choose a game to begin the draft simulator"
-	// $scope.gameModes = {
-	// 	smite3v3 : {
-	// 		game: "smite",
-	// 		id: "smite3v3",
-	// 		name : "Joust 3v3",
-	// 		order: ["LB1","RB1","LB2","RB2","LB3","RB3","LP1","RP1","RP2","LP2","LP3","RP3"]
-	// 	},
-	// 	smite5v5 : {
-	// 		game: "smite",
-	// 		id: "smite5v5",
-	// 		name: "Conquest 5v5",
-	// 	    order:["LB1","RB1","LB2","RB2","LP1","RP1","RP2","LP2","LP3","RP3","RB3","LB3","RP4","LP4","LP5","RP5"]
-	// 	},
-	// 	lol3v3 : {
-	// 		game: "lol",
-	// 		id: "lol3v3",
-	// 		name : "3v3 Ranked",
-	// 		order: ["LB1","RB1","LB2","RB2","LB3","RB3","LP1","RP1","RP2","LP2","LP3","RP3"]
-	// 	},
-	// 	lol5v5 : {
-	// 		game: "lol",
-	// 		id: "lol5v5",
-	// 		name: "5v5 Ranked",
-	// 	    order:["LB1","RB1","LB2","RB2","LB3","RB3","LP1","RP1","RP2","LP2","LP3","RP3","RP4","LP4","LP5","RP5"]
-	// 	}
-	// }
+	$scope.message = "Welcome to PicksAndBans.com! Please choose a game to begin the draft simulator.";
 
 	$scope.animateFlash = function(){
 		setInterval(function(){
@@ -109,9 +83,15 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 	};
 	$scope.animateFlash();
 
+	$scope.switchTeamSides = function(){
+		$('#leftTeamColumn').toggleClass("blue-team red-team");
+		$('#rightTeamColumn').toggleClass("blue-team red-team");
+	};
+
 	$scope.selectGame = function(){
 		$scope.resetBoard();
 		$scope.roleFilterIncludes = [];
+		$scope.message = "";
 		if ($scope.selectedGame === "smite"){
 			smiteDataService.success(function (data){
 				$scope.gameData = data;
@@ -152,7 +132,11 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 
 	$scope.selectGod = function(god){
 		console.log(god);
-		$scope.selectedGod = god;
+		if($scope.selectedGod === god){
+			$scope.pickGod(god);
+		}else {
+			$scope.selectedGod = god;
+		}
 	};
 
 	// finds the picked god in the picks object by order index  ----- CHANGE TO SWITCH
@@ -376,6 +360,14 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 							$scope.picks.leftBans = [];
 							$scope.picks.leftBans[2] = god;
 						}
+					} else 
+					if(index[2] == "4"){
+						if($scope.picks.leftBans){
+							$scope.picks.leftBans[3] = god;
+						} else {
+							$scope.picks.leftBans = [];
+							$scope.picks.leftBans[3] = god;
+						}
 					}
 				} else 
 				if(index[1] === "P"){
@@ -446,6 +438,14 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 							$scope.picks.rightBans = [];
 							$scope.picks.rightBans[2] = god;
 						}
+					} else 
+					if(index[2] == "4"){
+						if($scope.picks.rightBans){
+							$scope.picks.rightBans[3] = god;
+						} else {
+							$scope.picks.rightBans = [];
+							$scope.picks.rightBans[3] = god;
+						}
 					}
 				} else 
 				if(index[1] === "P"){
@@ -514,6 +514,8 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 
 		$scope.pickGod(randGod);
 	};
+
+
 
 	$scope.resetBoard = function(){
 		$scope.picks = {};
