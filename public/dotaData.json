@@ -1,0 +1,717 @@
+{
+	"gods":[
+			{
+				"shortname": "antimage",
+				"id": 1,
+				"name": "Anti-Mage",
+				"role": ["Agility","Melee","Carry","Escape","Nuker"]
+			},
+			{
+				"shortname": "axe",
+				"id": 2,
+				"name": "Axe",
+				"role": ["Strength","Melee","Initiator","Disabler","Jungler"]
+			},
+			{
+				"shortname": "bane",
+				"id": 3,
+				"name": "Bane",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker","Durable"]
+			},
+			{
+				"shortname": "bloodseeker",
+				"id": 4,
+				"name": "Bloodseeker",
+				"role": ["Agility","Melee","Carry","Disabler","Jungler","Nuker","Initiator"]
+			},
+			{
+				"shortname": "crystal_maiden",
+				"id": 5,
+				"name": "Crystal Maiden",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker","Jungler"]
+			},
+			{
+				"shortname": "drow_ranger",
+				"id": 6,
+				"name": "Drow Ranger",
+				"role": ["Agility","Ranged","Carry","Disabler","Pusher"]
+			},
+			{
+				"shortname": "earthshaker",
+				"id": 7,
+				"name": "Earthshaker",
+				"role": ["Strength","Melee","Support","Initiator","Disabler","Nuker"]
+			},
+			{
+				"shortname": "juggernaut",
+				"id": 8,
+				"name": "Juggernaut",
+				"role": ["Agility","Melee","Carry","Pusher","Escape"]
+			},
+			{
+				"shortname": "mirana",
+				"id": 9,
+				"name": "Mirana",
+				"role": ["Agility","Ranged","Carry","Support","Escape","Nuker","Disabler"]
+			},
+			{
+				"shortname": "shadow_fiend",
+				"id": 11,
+				"name": "Shadow Fiend",
+				"role": ["Agility","Ranged","Carry","Nuker"]
+			},
+			{
+				"shortname": "morphling",
+				"id": 10,
+				"name": "Morphling",
+				"role": ["Agility","Ranged","Carry","Escape","Durable","Nuker","Disabler"]
+			},
+			{
+				"shortname": "phantom_lancer",
+				"id": 12,
+				"name": "Phantom Lancer",
+				"role": ["Agility","Melee","Carry","Escape","Pusher","Nuker"]
+			},
+			{
+				"shortname": "puck",
+				"id": 13,
+				"name": "Puck",
+				"role": ["Intelligence","Ranged","Initiator","Disabler","Escape","Nuker"]
+			},
+			{
+				"shortname": "pudge",
+				"id": 14,
+				"name": "Pudge",
+				"role": ["Strength","Melee","Disabler","Initiator","Durable","Nuker"]
+			},
+			{
+				"shortname": "razor",
+				"id": 15,
+				"name": "Razor",
+				"role": ["Agility","Ranged","Carry","Durable","Nuker","Pusher"]
+			},
+			{
+				"shortname": "sand_king",
+				"id": 16,
+				"name": "Sand King",
+				"role": ["Strength","Melee","Disabler","Nuker","Escape","Jungler"]
+			},
+			{
+				"shortname": "storm_spirit",
+				"id": 17,
+				"name": "Storm Spirit",
+				"role": ["Intelligence","Ranged","Carry","Escape","Nuker","Initiator","Disabler"]
+			},
+			{
+				"shortname": "sven",
+				"id": 18,
+				"name": "Sven",
+				"role": ["Strength","Melee","Carry","Disabler","Initiator","Durable","Nuker"]
+			},
+			{
+				"shortname": "tiny",
+				"id": 19,
+				"name": "Tiny",
+				"role": ["Strength","Melee","Carry","Nuker","Pusher","Initiator","Durable","Disabler"]
+			},
+			{
+				"shortname": "vengeful_spirit",
+				"id": 20,
+				"name": "Vengeful Spirit",
+				"role": ["Agility","Ranged","Support","Initiator","Disabler","Nuker","Escape"]
+			},
+			{
+				"shortname": "windranger",
+				"id": 21,
+				"name": "Windranger",
+				"role": ["Intelligence","Ranged","Carry","Support","Disabler","Escape","Nuker"]
+			},
+			{
+				"shortname": "zeus",
+				"id": 22,
+				"name": "Zeus",
+				"role": ["Intelligence","Ranged","Nuker"]
+			},
+			{
+				"shortname": "kunkka",
+				"id": 23,
+				"name": "Kunkka",
+				"role": ["Strength","Melee","Carry","Disabler","Initiator","Durable","Nuker"]
+			},
+			{
+				"shortname": "lina",
+				"id": 25,
+				"name": "Lina",
+				"role": ["Intelligence","Ranged","Support","Carry","Nuker","Disabler"]
+			},
+			{
+				"shortname": "lich",
+				"id": 31,
+				"name": "Lich",
+				"role": ["Intelligence","Ranged","Support","Nuker"]
+			},
+			{
+				"shortname": "lion",
+				"id": 26,
+				"name": "Lion",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker","Initiator"]
+			},
+			{
+				"shortname": "shadow_shaman",
+				"id": 27,
+				"name": "Shadow Shaman",
+				"role": ["Intelligence","Ranged","Support","Pusher","Disabler","Nuker","Initiator"]
+			},
+			{
+				"shortname": "slardar",
+				"id": 28,
+				"name": "Slardar",
+				"role": ["Strength","Melee","Carry","Durable","Initiator","Disabler","Escape"]
+			},
+			{
+				"shortname": "tidehunter",
+				"id": 29,
+				"name": "Tidehunter",
+				"role": ["Strength","Melee","Initiator","Durable","Disabler","Nuker"]
+			},
+			{
+				"shortname": "witch_doctor",
+				"id": 30,
+				"name": "Witch Doctor",
+				"role": ["Intelligence","Ranged","Support","Nuker","Disabler"]
+			},
+			{
+				"shortname": "riki",
+				"id": 32,
+				"name": "Riki",
+				"role": ["Agility","Melee","Carry","Escape","Disabler"]
+			},
+			{
+				"shortname": "enigma",
+				"id": 33,
+				"name": "Enigma",
+				"role": ["Intelligence","Ranged","Disabler","Jungler","Initiator","Pusher"]
+			},
+			{
+				"shortname": "tinker",
+				"id": 34,
+				"name": "Tinker",
+				"role": ["Intelligence","Ranged","Carry","Nuker","Pusher"]
+			},
+			{
+				"shortname": "sniper",
+				"id": 35,
+				"name": "Sniper",
+				"role": ["Agility","Ranged","Carry","Nuker"]
+			},
+			{
+				"shortname": "necrophos",
+				"id": 36,
+				"name": "Necrophos",
+				"role": ["Intelligence","Ranged","Carry","Nuker","Durable","Disabler"]
+			},
+			{
+				"shortname": "warlock",
+				"id": 37,
+				"name": "Warlock",
+				"role": ["Intelligence","Ranged","Support","Initiator","Disabler"]
+			},
+			{
+				"shortname": "beastmaster",
+				"id": 38,
+				"name": "Beastmaster",
+				"role": ["Strength","Melee","Initiator","Disabler","Durable","Nuker"]
+			},
+			{
+				"shortname": "queen_of_pain",
+				"id": 39,
+				"name": "Queen of Pain",
+				"role": ["Intelligence","Ranged","Carry","Nuker","Escape"]
+			},
+			{
+				"shortname": "venomancer",
+				"id": 40,
+				"name": "Venomancer",
+				"role": ["Agility","Ranged","Support","Nuker","Initiator","Pusher","Disabler"]
+			},
+			{
+				"shortname": "faceless_void",
+				"id": 41,
+				"name": "Faceless Void",
+				"role": ["Agility","Melee","Carry","Initiator","Disabler","Escape","Durable"]
+			},
+			{
+				"shortname": "wraith_king",
+				"id": 42,
+				"name": "Wraith King",
+				"role": ["Strength","Melee","Carry","Support","Durable","Disabler","Initiator"]
+			},
+			{
+				"shortname": "death_prophet",
+				"id": 43,
+				"name": "Death Prophet",
+				"role": ["Intelligence","Ranged","Carry","Pusher","Nuker","Disabler"]
+			},
+			{
+				"shortname": "phantom_assassin",
+				"id": 44,
+				"name": "Phantom Assassin",
+				"role": ["Agility","Melee","Carry","Escape"]
+			},
+			{
+				"shortname": "pugna",
+				"id": 45,
+				"name": "Pugna",
+				"role": ["Intelligence","Ranged","Nuker","Pusher"]
+			},
+			{
+				"shortname": "templar_assassin",
+				"id": 46,
+				"name": "Templar Assassin",
+				"role": ["Agility","Ranged","Carry","Escape"]
+			},
+			{
+				"shortname": "viper",
+				"id": 47,
+				"name": "Viper",
+				"role": ["Agility","Ranged","Carry","Durable","Initiator","Disabler"]
+			},
+			{
+				"shortname": "luna",
+				"id": 48,
+				"name": "Luna",
+				"role": ["Agility","Ranged","Carry","Nuker","Pusher"]
+			},
+			{
+				"shortname": "dragon_knight",
+				"id": 49,
+				"name": "Dragon Knight",
+				"role": ["Strength","Melee","Carry","Pusher","Durable","Disabler","Initiator","Nuker"]
+			},
+			{
+				"shortname": "dazzle",
+				"id": 50,
+				"name": "Dazzle",
+				"role": ["Intelligence","Ranged","Support","Nuker","Disabler"]
+			},
+			{
+				"shortname": "clockwerk",
+				"id": 51,
+				"name": "Clockwerk",
+				"role": ["Strength","Melee","Initiator","Disabler","Durable","Nuker"]
+			},
+			{
+				"shortname": "leshrac",
+				"id": 52,
+				"name": "Leshrac",
+				"role": ["Intelligence","Ranged","Carry","Support","Nuker","Pusher","Disabler"]
+			},
+			{
+				"shortname": "natures_prophet",
+				"id": 53,
+				"name": "Nature's Prophet",
+				"role": ["Intelligence","Ranged","Carry","Jungler","Pusher","Escape","Nuker"]
+			},
+			{
+				"shortname": "lifestealer",
+				"id": 54,
+				"name": "Lifestealer",
+				"role": ["Intelligence","Melee","Carry","Durable","Jungler","Escape","Disabler"]
+			},
+			{
+				"shortname": "dark_seer",
+				"id": 55,
+				"name": "Dark Seer",
+				"role": ["Intelligence","Melee","Initiator","Jungler","Escape","Disabler"]
+			},
+			{
+				"shortname": "clinkz",
+				"id": 56,
+				"name": "Clinkz",
+				"role": ["Agility","Ranged","Carry","Escape","Pusher"]
+			},
+			{
+				"shortname": "omniknight",
+				"id": 57,
+				"name": "Omniknight",
+				"role": ["Strength","Melee","Support","Durable","Nuker"]
+			},
+			{
+				"shortname": "enchantress",
+				"id": 58,
+				"name": "Enchantress",
+				"role": ["Intelligence","Ranged","Support","Jungler","Pusher","Durable","Disabler"]
+			},
+			{
+				"shortname": "huskar",
+				"id": 59,
+				"name": "Huskar",
+				"role": ["Strength","Ranged","Carry","Durable","Initiator"]
+			},
+			{
+				"shortname": "night_stalker",
+				"id": 60,
+				"name": "Night Stalker",
+				"role": ["Strength","Melee","Carry","Initiator","Durable","Disabler","Nuker"]
+			},
+			{
+				"shortname": "broodmother",
+				"id": 61,
+				"name": "Broodmother",
+				"role": ["Agility","Melee","Carry","Pusher","Escape","Nuker"]
+			},
+			{
+				"shortname": "bounty_hunter",
+				"id": 62,
+				"name": "Bounty Hunter",
+				"role": ["Agility","Melee","Escape","Nuker"]
+			},
+			{
+				"shortname": "weaver",
+				"id": 63,
+				"name": "Weaver",
+				"role": ["Agility","Ranged","Carry","Escape"]
+			},
+			{
+				"shortname": "jakiro",
+				"id": 64,
+				"name": "Jakiro",
+				"role": ["Intelligence","Ranged","Support","Nuker","Pusher","Disabler"]
+			},
+			{
+				"shortname": "batrider",
+				"id": 65,
+				"name": "Batrider",
+				"role": ["Intelligence","Ranged","Initiator","Jungler","Disabler","Escape"]
+			},
+			{
+				"shortname": "chen",
+				"id": 66,
+				"name": "Chen",
+				"role": ["Intelligence","Ranged","Support","Jungler","Pusher"]
+			},
+			{
+				"shortname": "spectre",
+				"id": 67,
+				"name": "Spectre",
+				"role": ["Agility","Melee","Carry","Durable","Escape"]
+			},
+			{
+				"shortname": "doom",
+				"id": 69,
+				"name": "Doom",
+				"role": ["Strength","Melee","Disabler","Initiator","Durable","Nuker"]
+			},
+			{
+				"shortname": "ancient_apparition",
+				"id": 68,
+				"name": "Ancient Apparition",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker"]
+			},
+			{
+				"shortname": "ursa",
+				"id": 70,
+				"name": "Ursa",
+				"role": ["Agility","Melee","Carry","Jungler","Durable","Disabler"]
+			},
+			{
+				"shortname": "spirit_breaker",
+				"id": 71,
+				"name": "Spirit Breaker",
+				"role": ["Strength","Melee","Carry","Initiator","Disabler","Durable","Escape"]
+			},
+			{
+				"shortname": "gyrocopter",
+				"id": 72,
+				"name": "Gyrocopter",
+				"role": ["Agility","Ranged","Carry","Nuker","Disabler"]
+			},
+			{
+				"shortname": "alchemist",
+				"id": 73,
+				"name": "Alchemist",
+				"role": ["Strength","Melee","Carry","Support","Durable","Disabler","Initiator","Nuker"]
+			},
+			{
+				"shortname": "invoker",
+				"id": 74,
+				"name": "Invoker",
+				"role": ["Intelligence","Ranged","Carry","Nuker","Disabler","Escape","Pusher"]
+			},
+			{
+				"shortname": "silencer",
+				"id": 75,
+				"name": "Silencer",
+				"role": ["Intelligence","Ranged","Carry","Support","Disabler","Initiator","Nuker"]
+			},
+			{
+				"shortname": "outworld_devourer",
+				"id": 76,
+				"name": "Outworld Devourer",
+				"role": ["Intelligence","Ranged","Carry","Nuker","Disabler"]
+			},
+			{
+				"shortname": "lycan",
+				"id": 77,
+				"name": "Lycan",
+				"role": ["Strength","Melee","Pusher","Jungler","Durable","Escape"]
+			},
+			{
+				"shortname": "brewmaster",
+				"id": 78,
+				"name": "Brewmaster",
+				"role": ["Strength","Melee","Carry","Initiator","Durable","Disabler","Nuker"]
+			},
+			{
+				"shortname": "shadow_demon",
+				"id": 79,
+				"name": "Shadow Demon",
+				"role": ["Intelligence","Ranged","Support","Disabler","Initiator","Nuker"]
+			},
+			{
+				"shortname": "lone_druid",
+				"id": 80,
+				"name": "Lone Druid",
+				"role": ["Agility","Ranged","Carry","Pusher","Jungler","Durable"]
+			},
+			{
+				"shortname": "chaos_knight",
+				"id": 81,
+				"name": "Chaos Knight",
+				"role": ["Strength","Melee","Carry","Disabler","Durable","Pusher","Initiator"]
+			},
+			{
+				"shortname": "meepo",
+				"id": 82,
+				"name": "Meepo",
+				"role": ["Agility","Melee","Carry","Escape","Nuker","Disabler","Initiator","Pusher"]
+			},
+			{
+				"shortname": "treant_protector",
+				"id": 83,
+				"name": "Treant Protector",
+				"role": ["Strength","Melee","Support","Initiator","Durable","Disabler","Escape"]
+			},
+			{
+				"shortname": "ogre_magi",
+				"id": 84,
+				"name": "Ogre Magi",
+				"role": ["Intelligence","Melee","Support","Nuker","Disabler","Durable","Initiator"]
+			},
+			{
+				"shortname": "undying",
+				"id": 85,
+				"name": "Undying",
+				"role": ["Strength","Melee","Support","Durable","Disabler","Nuker"]
+			},
+			{
+				"shortname": "rubick",
+				"id": 86,
+				"name": "Rubick",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker"]
+			},
+			{
+				"shortname": "disruptor",
+				"id": 87,
+				"name": "Disruptor",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker","Initiator"]
+			},
+			{
+				"shortname": "nyx_assassin",
+				"id": 88,
+				"name": "Nyx Assassin",
+				"role": ["Agility","Melee","Disabler","Nuker","Initiator","Escape"]
+			},
+			{
+				"shortname": "naga_siren",
+				"id": 89,
+				"name": "Naga Siren",
+				"role": ["Agility","Melee","Carry","Support","Pusher","Disabler","Initiator","Escape"]
+			},
+			{
+				"shortname": "keeper_of_the_light",
+				"id": 90,
+				"name": "Keeper of the Light",
+				"role": ["Intelligence","Ranged","Support","Nuker","Disabler","Jungler"]
+			},
+			{
+				"shortname": "io",
+				"id": 91,
+				"name": "Io",
+				"role": ["Strength","Ranged","Support","Escape","Nuker"]
+			},
+			{
+				"shortname": "visage",
+				"id": 92,
+				"name": "Visage",
+				"role": ["Intelligence","Ranged","Support","Nuker","Durable","Disabler","Pusher"]
+			},
+			{
+				"shortname": "slark",
+				"id": 93,
+				"name": "Slark",
+				"role": ["Agility","Melee","Carry","Escape","Disabler","Nuker"]
+			},
+			{
+				"shortname": "medusa",
+				"id": 94,
+				"name": "Medusa",
+				"role": ["Agility","Ranged","Carry","Disabler","Durable"]
+			},
+			{
+				"shortname": "troll_warlord",
+				"id": 95,
+				"name": "Troll Warlord",
+				"role": ["Agility","Ranged","Carry","Pusher","Disabler","Durable"]
+			},
+			{
+				"shortname": "centaur_warrunner",
+				"id": 96,
+				"name": "Centaur Warrunner",
+				"role": ["Strength","Melee","Durable","Initiator","Disabler","Nuker","Escape"]
+			},
+			{
+				"shortname": "magnus",
+				"id": 97,
+				"name": "Magnus",
+				"role": ["Strength","Melee","Initiator","Disabler","Nuker","Escape"]
+			},
+			{
+				"shortname": "timbersaw",
+				"id": 98,
+				"name": "Timbersaw",
+				"role": ["Strength","Melee","Nuker","Durable","Escape"]
+			},
+			{
+				"shortname": "bristleback",
+				"id": 99,
+				"name": "Bristleback",
+				"role": ["Strength","Melee","Carry","Durable","Initiator","Nuker"]
+			},
+			{
+				"shortname": "tusk",
+				"id": 100,
+				"name": "Tusk",
+				"role": ["Strength","Melee","Initiator","Disabler","Nuker"]
+			},
+			{
+				"shortname": "skywrath_mage",
+				"id": 101,
+				"name": "Skywrath Mage",
+				"role": ["Intelligence","Ranged","Support","Nuker","Disabler"]
+			},
+			{
+				"shortname": "abaddon",
+				"id": 102,
+				"name": "Abaddon",
+				"role": ["Strength","Melee","Support","Carry","Durable"]
+			},
+			{
+				"shortname": "elder_titan",
+				"id": 103,
+				"name": "Elder Titan",
+				"role": ["Strength","Melee","Initiator","Disabler","Nuker","Durable"]
+			},
+			{
+				"shortname": "legion_commander",
+				"id": 104,
+				"name": "Legion Commander",
+				"role": ["Strength","Melee","Carry","Disabler","Initiator","Durable","Nuker"]
+			},
+			{
+				"shortname": "ember_spirit",
+				"id": 106,
+				"name": "Ember Spirit",
+				"role": ["Agility","Melee","Carry","Escape","Nuker","Disabler","Initiator"]
+			},
+			{
+				"shortname": "earth_spirit",
+				"id": 107,
+				"name": "Earth Spirit",
+				"role": ["Strength","Melee","Nuker","Escape","Disabler","Initiator","Durable"]
+			},
+			{
+				"shortname": "terrorblade",
+				"id": 109,
+				"name": "Terrorblade",
+				"role": ["Agility","Melee","Carry","Pusher","Nuker"]
+			},
+			{
+				"shortname": "phoenix",
+				"id": 110,
+				"name": "Phoenix",
+				"role": ["Strength","Ranged","Support","Nuker","Initiator","Escape","Disabler"]
+			},
+			{
+				"shortname": "oracle",
+				"id": 111,
+				"name": "Oracle",
+				"role": ["Intelligence","Ranged","Support","Nuker","Disabler","Escape"]
+			},
+			{
+				"shortname": "techies",
+				"id": 105,
+				"name": "Techies",
+				"role": ["Intelligence","Ranged","Nuker","Disabler"]
+			},
+			{
+				"shortname": "winter_wyvern",
+				"id": 112,
+				"name": "Winter Wyvern",
+				"role": ["Intelligence","Ranged","Support","Disabler","Nuker"]
+			},
+			{
+				"shortname": "arc_warden",
+				"id": 113,
+				"name": "Arc Warden",
+				"role": ["Agility","Ranged","Carry","Escape","Nuker"]
+			}
+		],
+   "modes":{
+      "dota3v3": {
+         "name":"3v3 Ranked",
+         "id": "dota3v3",
+         "teamSize": 3,
+         "numOfBans": 3,
+         "order":[
+            "LB1",
+            "RB1",
+            "LB2",
+            "RB2",
+            "LB3",
+            "RB3",
+            "LP1",
+            "RP1",
+            "RP2",
+            "LP2",
+            "LP3",
+            "RP3"
+         ]
+      },
+      "dota5v5": {
+         "name":"5v5 Ranked",
+         "id": "dota5v5",
+         "teamSize": 5,
+         "numOfBans": 3,
+         "order":[
+            "LB1",
+            "RB1",
+            "LB2",
+            "RB2",
+            "LB3",
+            "RB3",
+            "LP1",
+            "RP1",
+            "RP2",
+            "LP2",
+            "LP3",
+            "RP3",
+            "RP4",
+            "LP4",
+            "LP5",
+            "RP5"
+         ]
+      }
+   },
+   "filters":["Strength", "Agility", "Intelligence", "Carry", "Disabler", "Initiator", "Jungler", "Support", "Durable", "Nuker", "Pusher", "Escape"]
+}

@@ -22,6 +22,13 @@ app.factory('lolDataService', ['$http', function ($http){
 		});
 }]);
 
+app.factory('dotaDataService', ['$http', function ($http){
+	return $http.get('/dotaData')
+		.success(function(data){
+			return data;
+		});
+}]);
+
 // Angular Routes
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider){
 
@@ -49,7 +56,7 @@ app.controller('MainController', ['$scope', function ($scope){
 
 }]);
 
-app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', function ($scope, smiteDataService, lolDataService){
+app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 'dotaDataService', function ($scope, smiteDataService, lolDataService, dotaDataService){
 
 	
 
@@ -67,6 +74,7 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 	$scope.maxPhase;
 	$scope.pickOrder;
 	$scope.currentMode;
+	$scope.message = "Welcome to PicksAndBans.com! Please choose a game to begin the draft simulator"
 	// $scope.gameModes = {
 	// 	smite3v3 : {
 	// 		game: "smite",
@@ -94,6 +102,12 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 	// 	}
 	// }
 
+	$scope.animateFlash = function(){
+		setInterval(function(){
+			$('.phase-indicator').toggleClass('invis');
+		}, 1000);
+	};
+	$scope.animateFlash();
 
 	$scope.selectGame = function(){
 		$scope.resetBoard();
@@ -116,6 +130,7 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 			dotaDataService.success(function (data){
 				$scope.gameData = data;
 				$scope.gods = data.gods;
+				$scope.selectedMode = "dota5v5";
 			});
 		}
 	};
@@ -289,31 +304,35 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
     }
 
 	$scope.checkGodAvailability = function(god){
+
+		if(!god.name){
+			return false
+		}
 		var results = 0;
 
 		if($scope.picks.leftBans){
-			var o1 = $scope.picks.leftBans.filter(function (bans){
+			var p1 = $scope.picks.leftBans.filter(function (bans){
 				return bans.shortname === god.shortname
 			});
-			results += o1.length;
+			results += p1.length;
 		}
 		if($scope.picks.rightBans){
-			var o2 = $scope.picks.rightBans.filter(function (bans){
+			var p2 = $scope.picks.rightBans.filter(function (bans){
 				return bans.shortname === god.shortname
 			});
-			results += o2.length;
+			results += p2.length;
 		}
 		if($scope.picks.leftPicks){
-			var o3 = $scope.picks.leftPicks.filter(function (bans){
+			var p3 = $scope.picks.leftPicks.filter(function (bans){
 				return bans.shortname === god.shortname
 			});
-			results += o3.length;
+			results += p3.length;
 		}
 		if($scope.picks.rightPicks){
-			var o4 = $scope.picks.rightPicks.filter(function (bans){
+			var p4 = $scope.picks.rightPicks.filter(function (bans){
 				return bans.shortname === god.shortname
 			});
-			results += o4.length;
+			results += p4.length;
 		}
 
 		if(results > 0){
@@ -327,7 +346,7 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 		// Check if god has already been picked
 
 		if (!$scope.checkGodAvailability(god)) {
-			$scope.message = "That god has already been picked";
+			$scope.message = "You must choose an available character";
 		} else 
 		if ($scope.phase < $scope.currentMode.order.length){
 			var index = $scope.currentMode.order[$scope.phase];
@@ -482,6 +501,20 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 		}
 	};
 
+	$scope.pickRandom = function(){
+		var r;
+		var randGod;
+		var loopChecker = 200;
+		do {
+			rand = Math.floor((Math.random() * $scope.gods.length - 1) + 1);
+			randGod = $scope.gods[rand];
+			loopChecker = loopChecker - 1;
+		}
+		while ((!$scope.checkGodAvailability(randGod)) && loopChecker > 0);
+
+		$scope.pickGod(randGod);
+	};
+
 	$scope.resetBoard = function(){
 		$scope.picks = {};
 		$scope.pickHistory = [];
@@ -504,6 +537,8 @@ app.controller('PbController', ['$scope', 'smiteDataService', 'lolDataService', 
 			$scope.pickGod($scope.pickHistory[$scope.pickHistory.length -1]);
 		}
 	};
+
+
 
 }]);
 

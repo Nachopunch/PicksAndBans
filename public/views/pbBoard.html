@@ -1,17 +1,17 @@
 <!-- ~~~~~~~~~~ LEFT TEAM COLUMN START ~~~~~~~~~ -->
   <div class="pbColumn noselect" id="leftTeamColumn">
     <div class="banBox">
-      <div class="window banIcon leftBanIcon" id="LB1" ng-show="currentMode.numOfBans > 0" ng-class="{nextPick: currentMode.order[phase] == 'LB1'}"><div class="pick-tooltip"><p>{{picks.leftBans[0].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.leftBans[0].shortname}}.png" ng-show="picks.leftBans[0]"></div>
-      <div class="window banIcon leftBanIcon" id="LB2" ng-show="currentMode.numOfBans > 1" ng-class="{nextPick: currentMode.order[phase] == 'LB2'}"><div class="pick-tooltip"><p>{{picks.leftBans[1].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.leftBans[1].shortname}}.png" ng-show="picks.leftBans[1]"></div>
-      <div class="window banIcon leftBanIcon" id="LB3" ng-show="currentMode.numOfBans > 2" ng-class="{nextPick: currentMode.order[phase] == 'LB3'}"><div class="pick-tooltip"><p>{{picks.leftBans[2].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.leftBans[2].shortname}}.png" ng-show="picks.leftBans[2]"></div>
+      <div class="window banIcon leftBanIcon" id="LB1" ng-show="currentMode.numOfBans > 0" ng-class="{nextPick: currentMode.order[phase] == 'LB1'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LB1'">BANNING</h1><div class="pick-tooltip"><p>{{picks.leftBans[0].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.leftBans[0].shortname}}.png" ng-show="picks.leftBans[0]"></div>
+      <div class="window banIcon leftBanIcon" id="LB2" ng-show="currentMode.numOfBans > 1" ng-class="{nextPick: currentMode.order[phase] == 'LB2'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LB2'">BANNING</h1><div class="pick-tooltip"><p>{{picks.leftBans[1].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.leftBans[1].shortname}}.png" ng-show="picks.leftBans[1]"></div>
+      <div class="window banIcon leftBanIcon" id="LB3" ng-show="currentMode.numOfBans > 2" ng-class="{nextPick: currentMode.order[phase] == 'LB3'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LB3'">BANNING</h1><div class="pick-tooltip"><p>{{picks.leftBans[2].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.leftBans[2].shortname}}.png" ng-show="picks.leftBans[2]"></div>
     </div>
 
 
-    <div id="LP1" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 0" ng-class="{nextPick: currentMode.order[phase] == 'LP1'}"><div class="pick-tooltip"><p>{{picks.leftPicks[0].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[0].shortname}}.png" ng-show="picks.leftPicks[0]"></div>
-    <div id="LP2" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 1" ng-class="{nextPick: currentMode.order[phase] == 'LP2'}"><div class="pick-tooltip"><p>{{picks.leftPicks[1].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[1].shortname}}.png" ng-show="picks.leftPicks[1]"></div>
-    <div id="LP3" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 2" ng-class="{nextPick: currentMode.order[phase] == 'LP3'}"><div class="pick-tooltip"><p>{{picks.leftPicks[2].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[2].shortname}}.png" ng-show="picks.leftPicks[2]"></div>
-    <div id="LP4" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 3" ng-class="{nextPick: currentMode.order[phase] == 'LP4'}"><div class="pick-tooltip"><p>{{picks.leftPicks[3].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[3].shortname}}.png" ng-show="picks.leftPicks[3]"></div>
-    <div id="LP5" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 4" ng-class="{nextPick: currentMode.order[phase] == 'LP5'}"><div class="pick-tooltip"><p>{{picks.leftPicks[4].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[4].shortname}}.png" ng-show="picks.leftPicks[4]"></div>
+    <div id="LP1" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 0" ng-class="{nextPick: currentMode.order[phase] == 'LP1'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LP1'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.leftPicks[0].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[0].shortname}}.png" ng-show="picks.leftPicks[0]"></div>
+    <div id="LP2" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 1" ng-class="{nextPick: currentMode.order[phase] == 'LP2'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LP2'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.leftPicks[1].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[1].shortname}}.png" ng-show="picks.leftPicks[1]"></div>
+    <div id="LP3" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 2" ng-class="{nextPick: currentMode.order[phase] == 'LP3'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LP3'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.leftPicks[2].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[2].shortname}}.png" ng-show="picks.leftPicks[2]"></div>
+    <div id="LP4" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 3" ng-class="{nextPick: currentMode.order[phase] == 'LP4'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LP4'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.leftPicks[3].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[3].shortname}}.png" ng-show="picks.leftPicks[3]"></div>
+    <div id="LP5" class="window pickBox leftPickBox" ng-show="currentMode.teamSize > 4" ng-class="{nextPick: currentMode.order[phase] == 'LP5'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'LP5'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.leftPicks[4].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.leftPicks[4].shortname}}.png" ng-show="picks.leftPicks[4]"></div>
   </div>  <!-- ~~~~~~~~~~ leftTeamColumn ~~~~~~~ -->
     
     <!-- ~~~~~~~~~~~ MIDDLE COLUMN START ~~~~~~~~~~ -->
@@ -31,8 +31,7 @@
       <p class='message'>{{message}}</p>
     </div>
     <div ng-show="gameData" id='filterBox'>
-        <span>Search: </span>
-        <input name='godNameFilter' ng-model='godSearch.name'/>
+        <input name='godNameFilter' ng-model='godSearch.name'/ placeholder="Search">
         <div class="btn btn-default role-filter-box" ng-repeat="filter in gameData.filters" ng-class="{'btn-success': roleFilterIncludes.indexOf(filter) > -1}" ng-click="includeRoleFilter(filter)">
           {{filter}}
         </div>
@@ -42,16 +41,18 @@
         </select> -->
       </div>
     <div ng-show="gameData"class="window" id="godsWindow">
-      <div class="btn godBox noselect" ng-repeat="god in gods | filter: godSearch | filter:roleFilter" ng-click='selectGod(god)' ng-class="{ selected: selectedGod.shortname == god.shortname, unavailable: !(checkGodAvailability(god)) }">
-        <div class="god-tooltip"><p>{{god.name}}</p></div><img ng-src='/images/godicons/{{selectedGame}}/{{selectedGame}}-{{god.shortname}}.png'>
+      <div class="btn godBox noselect" ng-repeat="god in gods | filter: godSearch | filter:roleFilter | orderBy: 'name'" ng-click='selectGod(god)' ng-class="{ selected: selectedGod.shortname == god.shortname }">
+        <div class="god-tooltip"><p>{{god.name}}</p></div><img ng-src='/images/godicons/{{selectedGame}}/{{selectedGame}}-{{god.shortname}}.png' ng-class="{unavailable: !(checkGodAvailability(god))}">
       </div>
     </div>
 
     <div ng-show="gameData"class="noselect window" id="buttonWindow">
      <div class="btn btn-warning" id="undoButton" ng-class="{disabled: phase === 0}" ng-click="undo()"><p>Undo</p></div>
-     <div class="btn btn-warning" id="redoButton" ng-class="{disabled: pickHistory.length === 0}"ng-click="redo()"><p>Redo</p></div>
-     <div class="btn btn-success" id="lockButton" ng-click='pickGod(selectedGod)'><p>Lock</p></div>
+     <div class="btn btn-warning" id="redoButton" ng-class="{disabled: pickHistory.length === 0}" ng-click="redo()"><p>Redo</p></div>
+     <div class="btn btn-success" id="lockButton" ng-class="{disabled: !(checkGodAvailability(selectedGod))}" ng-click='pickGod(selectedGod)'><p>Select</p></div>
+
      <div class="btn btn-danger" id="resetButton" ng-click="resetBoard()"><p>Clear</p></div>
+     <div class="btn btn-default" id="randomButton" ng-click="pickRandom()"><p>Random</p></div>
     </div>
 
   </div>  <!-- ~~~~~~~~~  end middle column ~~~~~~~~~~ -->
@@ -61,15 +62,15 @@
     <div class="banBox">
 
 
-      <div class="window banIcon rightBanIcon" id="RB1" ng-show="currentMode.numOfBans > 0" ng-class="{nextPick: currentMode.order[phase] == 'RB1'}"><div class="pick-tooltip"><p>{{picks.rightBans[0].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.rightBans[0].shortname}}.png" ng-show="picks.rightBans[0]"></div>
-      <div class="window banIcon rightBanIcon" id="RB2" ng-show="currentMode.numOfBans > 1" ng-class="{nextPick: currentMode.order[phase] == 'RB2'}"><div class="pick-tooltip"><p>{{picks.rightBans[1].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.rightBans[1].shortname}}.png" ng-show="picks.rightBans[1]"></div>
-      <div class="window banIcon rightBanIcon" id="RB3" ng-show="currentMode.numOfBans > 2" ng-class="{nextPick: currentMode.order[phase] == 'RB3'}"><div class="pick-tooltip"><p>{{picks.rightBans[2].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.rightBans[2].shortname}}.png" ng-show="picks.rightBans[2]"></div>
+      <div class="window banIcon rightBanIcon" id="RB1" ng-show="currentMode.numOfBans > 0" ng-class="{nextPick: currentMode.order[phase] == 'RB1'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RB1'">BANNING</h1><div class="pick-tooltip"><p>{{picks.rightBans[0].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.rightBans[0].shortname}}.png" ng-show="picks.rightBans[0]"></div>
+      <div class="window banIcon rightBanIcon" id="RB2" ng-show="currentMode.numOfBans > 1" ng-class="{nextPick: currentMode.order[phase] == 'RB2'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RB2'">BANNING</h1><div class="pick-tooltip"><p>{{picks.rightBans[1].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.rightBans[1].shortname}}.png" ng-show="picks.rightBans[1]"></div>
+      <div class="window banIcon rightBanIcon" id="RB3" ng-show="currentMode.numOfBans > 2" ng-class="{nextPick: currentMode.order[phase] == 'RB3'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RB3'">BANNING</h1><div class="pick-tooltip"><p>{{picks.rightBans[2].name}}</p></div><img ng-src="images/godicons/{{selectedGame}}/{{selectedGame}}-{{picks.rightBans[2].shortname}}.png" ng-show="picks.rightBans[2]"></div>
     </div>
 
 
-    <div id="RP1" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 0" ng-class="{nextPick: currentMode.order[phase] == 'RP1'}"><div class="pick-tooltip"><p>{{picks.rightPicks[0].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[0].shortname}}.png" ng-show="picks.rightPicks[0]"></div>
-    <div id="RP2" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 1" ng-class="{nextPick: currentMode.order[phase] == 'RP2'}"><div class="pick-tooltip"><p>{{picks.rightPicks[1].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[1].shortname}}.png" ng-show="picks.rightPicks[1]"></div>
-    <div id="RP3" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 2" ng-class="{nextPick: currentMode.order[phase] == 'RP3'}"><div class="pick-tooltip"><p>{{picks.rightPicks[2].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[2].shortname}}.png" ng-show="picks.rightPicks[2]"></div>
-    <div id="RP4" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 3" ng-class="{nextPick: currentMode.order[phase] == 'RP4'}"><div class="pick-tooltip"><p>{{picks.rightPicks[3].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[3].shortname}}.png" ng-show="picks.rightPicks[3]"></div>
-    <div id="RP5" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 4" ng-class="{nextPick: currentMode.order[phase] == 'RP5'}"><div class="pick-tooltip"><p>{{picks.rightPicks[4].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[4].shortname}}.png" ng-show="picks.rightPicks[4]"></div>
+    <div id="RP1" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 0" ng-class="{nextPick: currentMode.order[phase] == 'RP1'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RP1'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.rightPicks[0].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[0].shortname}}.png" ng-show="picks.rightPicks[0]"></div>
+    <div id="RP2" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 1" ng-class="{nextPick: currentMode.order[phase] == 'RP2'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RP2'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.rightPicks[1].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[1].shortname}}.png" ng-show="picks.rightPicks[1]"></div>
+    <div id="RP3" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 2" ng-class="{nextPick: currentMode.order[phase] == 'RP3'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RP3'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.rightPicks[2].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[2].shortname}}.png" ng-show="picks.rightPicks[2]"></div>
+    <div id="RP4" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 3" ng-class="{nextPick: currentMode.order[phase] == 'RP4'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RP4'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.rightPicks[3].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[3].shortname}}.png" ng-show="picks.rightPicks[3]"></div>
+    <div id="RP5" class="window pickBox rightPickBox" ng-show="currentMode.teamSize > 4" ng-class="{nextPick: currentMode.order[phase] == 'RP5'}"><h1 class="phase-indicator" ng-show="currentMode.order[phase] == 'RP5'">PICKING...</h1><div class="pick-tooltip"><p>{{picks.rightPicks[4].name}}</p></div><img ng-src="images/widegodicons/{{selectedGame}}/{{selectedGame}}-W{{picks.rightPicks[4].shortname}}.png" ng-show="picks.rightPicks[4]"></div>
   </div> <!-- ~~~~~~~~~~  end RightTeamColumn ~~~~~~~

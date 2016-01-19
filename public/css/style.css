@@ -18,8 +18,8 @@ body{
 	font-size:100%;
   border:100%;
   background-color:rgb(15,25,50);
-	/*background: url('/images/bg-titansmite.png') center top fixed;
-	background-size:cover;*/
+	background: url('/images/background.png') center top fixed;
+	background-size:cover;
 }
 
 a {

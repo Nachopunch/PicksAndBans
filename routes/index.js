@@ -12,6 +12,10 @@ router.get('/smiteData', function (req, res){
 router.get('/lolData', function (req, res){
 	res.sendfile('./public/lolData.json');
 });
+
+router.get('/dotaData', function (req, res){
+	res.sendfile('./public/dotaData.json');
+});
 /* GET home page. */
 router.get('*', function (req, res, next) {
   res.render('index', { title: 'Express' });

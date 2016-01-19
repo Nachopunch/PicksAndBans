@@ -20,6 +20,12 @@
       "pantheon": "Mayan"
     },
     {
+      "name": "Amaterasu",
+      "shortname": "amaterasu",
+      "role": "Warrior",
+      "pantheon": "Japanese"
+    },
+    {
       "name": "Anhur",
       "shortname": "anhur",
       "role": "Hunter",
@@ -52,7 +58,7 @@
     {
       "name": "Arachne",
       "shortname": "arachne",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Greek"
     },
     {
@@ -76,7 +82,7 @@
     {
       "name": "Awilix",
       "shortname": "awilix",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Mayan"
     },
     {
@@ -88,13 +94,13 @@
     {
       "name": "Bakasura",
       "shortname": "bakasura",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Hindu"
     },
     {
       "name": "Bastet",
       "shortname": "bastet",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Egyptian"
     },
     {
@@ -122,6 +128,12 @@
       "pantheon": "Chinese"
     },
     {
+      "name": "Chiron",
+      "shortname": "chiron",
+      "role": "Hunter",
+      "pantheon": "Greek"
+    },
+    {
       "name": "Chronos",
       "shortname": "chronos",
       "role": "Mage",
@@ -136,7 +148,7 @@
     {
       "name": "Fenrir",
       "shortname": "fenrir",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Norse"
     },
     {
@@ -190,7 +202,7 @@
     {
       "name": "Hun Batz",
       "shortname": "hun_batz",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Mayan"
     },
     {
@@ -208,7 +220,7 @@
     {
       "name": "Kali",
       "shortname": "kali",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Hindu"
     },
     {
@@ -218,8 +230,8 @@
       "pantheon": "Egyptian"
     },
     {
-      "name": "Kulkulkan",
-      "shortname": "kulkulkan",
+      "name": "Kukulkan",
+      "shortname": "kukulkan",
       "role": "Mage",
       "pantheon": "Mayan"
     },
@@ -232,7 +244,7 @@
     {
       "name": "Loki",
       "shortname": "loki",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Norse"
     },
     {
@@ -244,13 +256,13 @@
     {
       "name": "Mercury",
       "shortname": "mercury",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Roman"
     },
     {
       "name": "Ne Zha",
       "shortname": "ne_zha",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Chinese"
     },
     {
@@ -262,13 +274,13 @@
     {
       "name": "Nemesis",
       "shortname": "nemesis",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Greek"
     },
     {
       "name": "Nox",
       "shortname": "nox",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Roman"
     },
     {
@@ -310,7 +322,7 @@
     {
       "name": "Ratatoskr",
       "shortname": "ratatoskr",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Norse"
     },
     {
@@ -328,7 +340,7 @@
     {
       "name": "Serqet",
       "shortname": "serqet",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Egyptian"
     },
     {
@@ -336,6 +348,12 @@
       "shortname": "sobek",
       "role": "Guardian",
       "pantheon": "Egyptian"
+    },
+    {
+      "name": "Sol",
+      "shortname": "sol",
+      "role": "Mage",
+      "pantheon": "Norse"
     },
     {
       "name": "Sun Wukong",
@@ -352,13 +370,13 @@
     {
       "name": "Thanatos",
       "shortname": "thanatos",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Greek"
     },
     {
       "name": "Thor",
       "shortname": "thor",
-      "role": "Assasin",
+      "role": "Assassin",
       "pantheon": "Norse"
     },
     {
@@ -457,5 +475,5 @@
     }
   },
   "filters":
-  ["Assasin", "Guardian", "Hunter", "Mage", "Warrior"]
+  ["Assassin", "Guardian", "Hunter", "Mage", "Warrior"]
 }
