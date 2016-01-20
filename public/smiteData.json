@@ -410,6 +410,12 @@
       "pantheon": "Mayan"
     },
     {
+      "name": "Xing Tian",
+      "shortname": "xing_tian",
+      "role": "Guardian",
+      "pantheon": "Chinese"
+    },
+    {
       "name": "Ymir",
       "shortname": "ymir",
       "role": "Guardian",
