@@ -132,7 +132,7 @@
       },
       {
          "name":"Cho'Gath",
-         "shortname":"choGath",
+         "shortname":"chogath",
          "role":[
             "Tank",
             "Mage",
@@ -202,7 +202,7 @@
       },
       {
          "name":"Fiddlesticks",
-         "shortname":"fiddlesticks",
+         "shortname":"fiddleSticks",
          "role":[
             "Mage",
             "Support",
